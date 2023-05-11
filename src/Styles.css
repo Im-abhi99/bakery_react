@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lobster&family=Oswald:wght@500&family=Pacifico&family=Poppins:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: auto;
+  font-family: "Lobster", cursive;
+  color: #e64157;
+  border-bottom: 2px solid;
+}
+
+.navbar-nav {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  padding-right: 50px;
+  font-family: "Oswald", sans-serif;
+}
+
+.img {
+  width: 75px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar-nav {
+    margin-top: 10px;
+  }
+}
+swiper {
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  color: #fff;
+  box-sizing: border-box;
+}
+
+.parallax-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.swiper-slide .title {
+  font-size: 41px;
+  font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+  font-size: 21px;
+}
+
+.swiper-slide .text {
+  font-size: 14px;
+  max-width: 400px;
+  line-height: 1.3;
+}
+
+.recipe {
+  display: grid;
+  text-align: center;
+}
+.recipe h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+.recipe .flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.recipe .flex .card {
+  padding: 20px;
+  grid-template-columns: repeat(3, 100px);
+}
+.recipe .flex .card h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+.recipe .flex .card img {
+  width: 290px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.recipe div button {
+  padding: 0 20px;
+  margin: 15px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: #e64157;
+  color: white;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+}
+
+.wel {
+  display: grid;
+  background-color: #d0f4de;
+  margin: 0 50px;
+}
+.wel .grid {
+  display: flex;
+}
+.wel .grid .flex {
+  display: grid;
+}
+.wel .grid .flex .p1 {
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  letter-spacing: 2px;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+.wel .grid .flex .p2 {
+  font-size: 36px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  padding: 0;
+  padding: 0 50px;
+  margin: 0;
+}
+.wel .grid .flex .p3 {
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.wel .grid .flex img {
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 3px gray;
+  margin: 15px;
+}
+.wel div {
+  text-align: center;
+}
+.wel div button {
+  padding: 5px 20px;
+  margin: 15px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: #e64157;
+  color: white;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+}
+
+.popular {
+  display: grid;
+  text-align: center;
+}
+.popular h4 {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+.popular .flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.popular .flex .card {
+  padding: 20px;
+  grid-template-columns: repeat(4, 100px);
+}
+.popular .flex .card h5 {
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+.popular .flex .card img {
+  width: 220px;
+  height: 290px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px gray;
+}
+.popular div button {
+  padding: 0 20px;
+  margin: 15px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  background-color: #e64157;
+  color: white;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+}
+
+.contact {
+  width: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-size: 100% 100%;
+  background-image: url("https://img.freepik.com/free-photo/front-view-cupcake-with-copy-space_23-2148769225.jpg?w=740&t=st=1683051398~exp=1683051998~hmac=1406bed6762aa7dfaa2a72f2d23bb4d56d31ba6aba8e78623c05f7dcc8741fef");
+}/*# sourceMappingURL=Styles.css.map */

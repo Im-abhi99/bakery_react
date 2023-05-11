@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Lobster&family=Oswald:wght@500&family=Pacifico&family=Poppins:wght@500&display=swap');
+// font-family: 'Kanit', sans-serif;
+// font-family: 'Lobster', cursive;
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Pacifico', cursive;
+// font-family: 'Poppins', sans-serif;
+// body{
+//     // background-color: #fffab1
+// }
+body{
+  overflow-x: hidden;
+}
+
+
+
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: auto;
+    // background-color: #fcf6bd;
+
+    font-family: 'Lobster', cursive;
+    color: #e64157;
+  
+    border-bottom: 2px solid ;
+
+   
+ 
+  }
+  
+  .navbar-nav{
+    
+   
+    list-style: none;
+    // justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    padding-right:50px ;
+    font-family: 'Oswald', sans-serif;
+    // padding: 10px;
+    // background-color: #f0f0f0;
+  }
+//   .nav-item {
+
+//   }
+.img{
+    width: 75px;
+}
+  .nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 0 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar-nav {
+      margin-top: 10px;
+    }
+  }
+  
+
+//   Carousel
+.swiper {
+    width: 100%;
+    height: 100%;
+   
+  }
+  
+  .swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+
+  }
+  
+  .parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+  }
+  
+  .swiper-slide .subtitle {
+    font-size: 21px;
+  }
+  
+  .swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+  }
+  
+
+//   cards
+.recipe{
+    display: grid;
+    text-align: center;
+    h4{
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        padding-top: 50px;
+        text-align: center;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+        .card{
+             padding: 20px;
+            grid-template-columns: repeat(3, 100px);
+            h5{
+                font-family: 'Oswald', sans-serif;
+                font-size: 16px;
+            }
+            img{
+                width: 290px;
+                height: 350px;
+                border-radius: 20px;
+                box-shadow: 1px 1px 5px 1px gray;
+            }
+        }
+    }div button{
+        padding: 0 20px;
+        margin: 15px;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        background-color: #e64157;
+        color: white;
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+// welcome section
+.wel{
+    display: grid;
+    background-color: #d0f4de;
+    margin: 0 50px;
+    .grid{
+        display: flex;
+        .flex{
+            display: grid;
+            .p1{
+                font-size: 20px;
+                font-family: 'Oswald', sans-serif;
+                text-align: center;
+                letter-spacing: 2px ;
+                margin-top: 100px;
+                margin-bottom: 0;
+            }
+            .p2{
+                font-size: 36px;
+                font-family: 'Oswald', sans-serif;
+                text-align: center;
+              
+                margin-top: 100px;
+                padding: 0;
+                padding: 0 50px;
+                margin: 0;
+            }
+            .p3{
+                font-size: 16px;
+                font-family: 'Oswald', sans-serif;
+                text-align: center;
+              
+                
+                padding: 0;
+               
+                margin: 0;
+            }
+            img{
+                width: 350px;
+                border-radius: 20px;
+                box-shadow: 1px 1px 5px 3px gray;
+                margin: 15px;
+            }
+        }
+    }div{
+        text-align: center;
+        button{
+        padding: 5px 20px;
+        margin: 15px;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        background-color: #e64157;
+        color: white;
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+    }}
+}
+
+// popular
+.popular{
+    display: grid;
+    text-align: center;
+    h4{
+        font-family: 'Oswald', sans-serif;
+        font-size: 26px;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .flex{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+        .card{
+             padding: 20px;
+            grid-template-columns: repeat(4, 100px);
+            h5{
+                font-family: 'Oswald', sans-serif;
+                font-size: 16px;
+            }
+            img{
+                width: 220px;
+                height: 290px;
+                border-radius: 20px;
+                box-shadow: 1px 1px 5px 1px gray;
+            }
+        }
+    }div button{
+        padding: 0 20px;
+        margin: 15px;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        background-color: #e64157;
+        color: white;
+        font-size: 16px;
+        font-family: 'Oswald', sans-serif;
+    }
+}
+
+// contact
+.Contact{
+   
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    background-size: 100% 100%;
+    background-image: url('https://img.freepik.com/free-photo/front-view-cupcake-with-copy-space_23-2148769225.jpg?w=740&t=st=1683051398~exp=1683051998~hmac=1406bed6762aa7dfaa2a72f2d23bb4d56d31ba6aba8e78623c05f7dcc8741fef');
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid gray;
+      border-radius: 10px;
+      background-color:  #d0f4de;
+      text-align: center;
+      font-family: 'Oswald', sans-serif;
+      transform: translate(250px,150px);
+
+    }
+    
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+    
+    input[type="email"] {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 20px;
+      border: 1px solid;
+      border-radius: 5px;
+      margin: 10px;
+      
+    }
+    
+    input[type="checkbox"] {
+      margin-right: 10px;
+    }
+    
+    button[type="submit"] {
+      background-color: #e64157;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+  }
+
+
+
+.Carousel2{
+    h2{
+      font-family: 'Oswald', sans-serif;
+      font-size: 26px;
+      padding-top: 50px;
+        text-align: center;
+    }
+  .swiper {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+ 
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     .frame{
+      width: 250px;
+      height: 350px;
+      border-radius: 20px;
+      margin: 10px;
+      padding: 50px;
+     }
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  } div {
+    text-align: center;
+    button{
+    padding: 0 20px;
+    margin: 15px;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    background-color: #e64157;
+    color: white;
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+  
+  
+}}
+
+.footer{
+  display: grid;
+
+    div h1{
+      font-family: 'Oswald', sans-serif;
+      font-size: 26px;
+        padding-top: 50px;
+      text-align: center;
+    }
+    .social{
+      display: flex;
+      justify-content: center;
+      i{
+        font-size: 26px;
+        padding: 20px;
+      }
+    }hr{
+      width: 90%;
+      margin-left:5%;
+      margin-right: 5%;
+      
+    }.f{
+      display: flex;
+      text-align: center;
+      margin-right: 36%;
+      margin-left: 38%;
+      font-family: 'Oswald', sans-serif;
+      margin-top: 5px;
+      i{
+        text-align: center;
+        margin-top: 5px;
+        margin-right: 10px;
+      }
+    }
+}
+
+
+.about{
+  text-align: center;
+  background-color:#d0f4de;
+
+  font-family: 'Oswald', sans-serif;
+
+  img{
+    width: 150px;
+    padding: 30px ;
+    background-color:#d0f4de;
+  }p{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 10%;
+    text-align: justify;
+  }
+}
+a{
+  text-decoration: None;
+  color: #000;
+}
