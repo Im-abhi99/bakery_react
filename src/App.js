@@ -9,7 +9,7 @@ function App() {
   return (
   <>
   <Routes>
-        <Route path="/home" index element={<Home />} />
+        <Route path="/" index element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="*" element={<Notfound />} />
    </Routes>
