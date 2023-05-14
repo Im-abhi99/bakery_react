@@ -3,7 +3,7 @@ import React from 'react';
 import "../Styles.css"
 import { Link } from "react-router-dom";
 import { HashLink } from 'react-router-hash-link';
-
+import Home from '../pages/Home';
 
 function Navbar() {
   return (
@@ -20,7 +20,7 @@ function Navbar() {
       <ul className="navbar-nav">
         <li className="nav-item">
           <a  className="nav-link">
-     <Link to="/home">  Home </Link>  </a>
+     <Link to="/" index element={<Home />}>  Home </Link>  </a>
         </li>
         <li className="nav-item">
           <a className="nav-link">  <Link to="/About">About Us </Link></a>
